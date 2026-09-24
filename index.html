@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +11,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
   <header class="nav">
     <a class="brand" href="#home">RS<span>.</span></a>
+
     <button class="menu" aria-label="Open menu">☰</button>
+
     <nav>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -25,26 +30,56 @@
   </header>
 
   <main>
+
+    <!-- HERO -->
     <section id="home" class="hero section">
+
       <div class="hero-copy">
+
         <p class="eyebrow">DATA ENGINEER • DATA SCIENCE</p>
+
         <h1>Hi, I'm <span>Rishabh Singh.</span></h1>
+
         <p class="hero-text">
           I build data-driven solutions using Python, SQL, Power BI, ETL pipelines,
           data warehousing and analytics.
         </p>
+
         <div class="buttons">
           <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn primary" href="mailto:rishabhsingh902633@gmail.com">rishabhsingh902633@gmail.com</a>
+
+          <a class="btn secondary"
+             href="mailto:rishabhsingh902633@gmail.com">
+            Contact Me
+          </a>
         </div>
+
         <div class="links">
-          <a href="https://github.com/rishabh3404" target="_blank" rel="noreferrer">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/rishabh-singh-data-science" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/rishabh3404"
+             target="_blank"
+             rel="noreferrer">
+            GitHub ↗
+          </a>
+
+          <a href="https://www.linkedin.com/in/rishabh-singh-data-science"
+             target="_blank"
+             rel="noreferrer">
+            LinkedIn ↗
+          </a>
         </div>
+
       </div>
+
       <div class="hero-card">
+
         <div class="code-window">
-          <div class="dots"><i></i><i></i><i></i></div>
+
+          <div class="dots">
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
+
           <pre><code><span class="purple">class</span> <span class="blue">DataEngineer</span>:
     skills = [
       <span class="green">"Python"</span>,
@@ -56,108 +91,373 @@
 
     <span class="purple">def</span> <span class="blue">build</span>(self, data):
         <span class="purple">return</span> insights</code></pre>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- ABOUT -->
     <section id="about" class="section">
-      <div class="section-head"><p class="eyebrow">ABOUT ME</p><h2>Turning data into useful insights.</h2></div>
+
+      <div class="section-head">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Turning data into useful insights.</h2>
+      </div>
+
       <div class="about-grid">
+
         <div>
-          <p>I am a Computer Science & Engineering (Data Science) graduate interested in Data Engineering, Data Analytics and Data Science roles.</p>
-          <p>My work combines Python and SQL with Power BI, ETL, data cleaning, data warehousing and interactive analytics applications.</p>
+
+          <p>
+            I am a Computer Science & Engineering (Data Science) graduate
+            interested in Data Engineering, Data Analytics and Data Science roles.
+          </p>
+
+          <p>
+            My work combines Python and SQL with Power BI, ETL, data cleaning,
+            data warehousing and interactive analytics applications.
+          </p>
+
         </div>
+
         <div class="stats">
-          <div><strong>5+</strong><span>Data Projects</span></div>
-          <div><strong>4+</strong><span>Core Data Tools</span></div>
-          <div><strong>1</strong><span>Data Analyst Internship</span></div>
+
+          <div>
+            <strong>5+</strong>
+            <span>Data Projects</span>
+          </div>
+
+          <div>
+            <strong>4+</strong>
+            <span>Core Data Tools</span>
+          </div>
+
+          <div>
+            <strong>1</strong>
+            <span>Data Analyst Internship</span>
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- SKILLS -->
     <section id="skills" class="section alt">
-      <div class="section-head"><p class="eyebrow">TECHNICAL SKILLS</p><h2>Tools I work with.</h2></div>
+
+      <div class="section-head">
+        <p class="eyebrow">TECHNICAL SKILLS</p>
+        <h2>Tools I work with.</h2>
+      </div>
+
       <div class="skill-grid">
-        <article><h3>Languages</h3><p>Python · SQL</p></article>
-        <article><h3>Data & ETL</h3><p>ETL Pipelines · Data Cleaning · Data Warehousing · Star Schema · Medallion Architecture</p></article>
-        <article><h3>BI & Analytics</h3><p>Power BI · Advanced Excel · Pandas · NumPy · Matplotlib · Seaborn</p></article>
-        <article><h3>Databases</h3><p>MySQL · SQL Server · SQLite</p></article>
-        <article><h3>Engineering</h3><p>PySpark (Basic) · Streamlit · Git · GitHub</p></article>
-        <article><h3>AI / ML</h3><p>Generative AI · Prompt Engineering · Machine Learning Fundamentals</p></article>
-      </div>
-    </section>
 
-    <section id="projects" class="section">
-      <div class="section-head"><p class="eyebrow">FEATURED PROJECTS</p><h2>Selected work.</h2></div>
-      <div class="project-grid">
-        <article class="project">
-          <span class="tag">Python · SQL · Streamlit</span>
-          <h3>Global Government Budget Analytics</h3>
-          <p>Interactive analytics application using MySQL, SQLAlchemy, Pandas and Plotly to explore government budget data across countries.</p>
-          <a href="https://github.com/rishabh3404/Global-Government-Budget-Analysis" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        <article>
+          <h3>Languages</h3>
+          <p>Python · SQL</p>
         </article>
-        <article class="project">
-  <span class="tag">Power BI · SQL · Python</span>
-  <h3>Telecom Churn Analysis</h3>
-  <p>Analyzed customer churn data, prepared SQL queries and created dashboards to identify customer and business patterns.</p>
-  <a href="https://github.com/rishabh3404/telecom-churn-analysis" target="_blank" rel="noreferrer">View on GitHub ↗</a>
-</article>
 
-        <article class="project">
-  <span class="tag">Power BI · SQL · DAX</span>
-  <h3>IOCL Stock Market Analysis</h3>
-  <p>Built a Power BI dashboard around historical OHLC data with DAX-based time analysis across day, week, quarter and year.</p>
-  <a href="https://github.com/rishabh3404/iocl-stock-market-analysis" target="_blank" rel="noreferrer">View on GitHub ↗</a>
-</article>
-       
-      
-        <article class="project">
-  <span class="tag">SQL Server · ETL</span>
-  <h3>Data Warehouse & Analytics</h3>
-  <p>Designed a Bronze/Silver/Gold medallion architecture from ERP and CRM CSV sources and modeled analytics data using a star schema.</p>
-  <a href="https://github.com/rishabh3404/data-warehouse-analytics" target="_blank" rel="noreferrer">View GitHub ↗</a>
-</article>
-     
-      <article class="project">
-  <span class="tag">Python · Tkinter · SQLite</span>
-  <h3>Banking Management System</h3>
-  <p>Desktop banking simulation with customer/admin screens, account creation, CAPTCHA, password generation, email notifications and search.</p>
-  <a href="https://github.com/rishabh3404/Banking-Management-System" target="_blank" rel="noreferrer">View on GitHub ↗</a>
-</article>
+        <article>
+          <h3>Data & ETL</h3>
+          <p>
+            ETL Pipelines · Data Cleaning · Data Warehousing ·
+            Star Schema · Medallion Architecture
+          </p>
+        </article>
 
+        <article>
+          <h3>BI & Analytics</h3>
+          <p>
+            Power BI · Advanced Excel · Pandas · NumPy ·
+            Matplotlib · Seaborn
+          </p>
+        </article>
+
+        <article>
+          <h3>Databases</h3>
+          <p>MySQL · SQL Server · SQLite</p>
+        </article>
+
+        <article>
+          <h3>Engineering</h3>
+          <p>PySpark (Basic) · Streamlit · Git · GitHub</p>
+        </article>
+
+        <article>
+          <h3>AI / ML</h3>
+          <p>
+            Generative AI · Prompt Engineering ·
+            Machine Learning Fundamentals
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+
+      <div class="section-head">
+        <p class="eyebrow">FEATURED PROJECTS</p>
+        <h2>Selected work.</h2>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- Global Budget -->
+        <article class="project">
+
+          <span class="tag">Python · SQL · Streamlit</span>
+
+          <h3>Global Government Budget Analytics</h3>
+
+          <p>
+            Interactive analytics application using MySQL, SQLAlchemy,
+            Pandas and Plotly to explore government budget data across countries.
+          </p>
+
+          <a href="https://github.com/rishabh3404/Global-Government-Budget-Analysis"
+             target="_blank"
+             rel="noreferrer">
+            View on GitHub ↗
+          </a>
+
+        </article>
+
+
+        <!-- Telecom -->
+        <article class="project">
+
+          <span class="tag">Power BI · SQL · Python</span>
+
+          <h3>Telecom Churn Analysis</h3>
+
+          <p>
+            Analyzed customer churn data, prepared SQL queries and created
+            dashboards to identify customer and business patterns.
+          </p>
+
+          <a href="https://github.com/rishabh3404/telecom-churn-analysis"
+             target="_blank"
+             rel="noreferrer">
+            View on GitHub ↗
+          </a>
+
+        </article>
+
+
+        <!-- IOCL -->
+        <article class="project">
+
+          <span class="tag">Power BI · SQL · DAX</span>
+
+          <h3>IOCL Stock Market Analysis</h3>
+
+          <p>
+            Built a Power BI dashboard around historical OHLC data with
+            DAX-based time analysis across day, week, quarter and year.
+          </p>
+
+          <a href="https://github.com/rishabh3404/iocl-stock-market-analysis"
+             target="_blank"
+             rel="noreferrer">
+            View on GitHub ↗
+          </a>
+
+        </article>
+
+
+        <!-- Data Warehouse -->
+        <article class="project">
+
+          <span class="tag">SQL Server · ETL</span>
+
+          <h3>Data Warehouse & Analytics</h3>
+
+          <p>
+            Designed a Bronze/Silver/Gold medallion architecture from
+            ERP and CRM CSV sources and modeled analytics data using a star schema.
+          </p>
+
+          <a href="https://github.com/rishabh3404/data-warehouse-analytics"
+             target="_blank"
+             rel="noreferrer">
+            View on GitHub ↗
+          </a>
+
+        </article>
+
+
+        <!-- Banking -->
+        <article class="project">
+
+          <span class="tag">Python · Tkinter · SQLite</span>
+
+          <h3>Banking Management System</h3>
+
+          <p>
+            Desktop banking simulation with customer/admin screens,
+            account creation, CAPTCHA, password generation,
+            email notifications and search.
+          </p>
+
+          <a href="https://github.com/rishabh3404/Banking-Management-System"
+             target="_blank"
+             rel="noreferrer">
+            View on GitHub ↗
+          </a>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
     <section id="experience" class="section alt">
-      <div class="section-head"><p class="eyebrow">EXPERIENCE</p><h2>Hands-on analytics experience.</h2></div>
+
+      <div class="section-head">
+        <p class="eyebrow">EXPERIENCE</p>
+        <h2>Hands-on analytics experience.</h2>
+      </div>
+
       <div class="timeline">
+
         <div class="timeline-item">
+
           <div class="dot"></div>
-          <div><p class="muted">Aug 2025 — Feb 2026 · Noida, India · On-site</p><h3>Data Analyst Intern — Ducat</h3>
-          <p>Worked with Python, SQL, Power BI and Streamlit for retail market analytics and store-level analysis. Built data workflows and interactive reporting solutions.</p></div>
+
+          <div>
+
+            <p class="muted">
+              Aug 2025 — Feb 2026 · Noida, India · On-site
+            </p>
+
+            <h3>Data Analyst Intern — Ducat</h3>
+
+            <p>
+              Worked with Python, SQL, Power BI and Streamlit for retail
+              market analytics and store-level analysis. Built data workflows
+              and interactive reporting solutions.
+            </p>
+
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- EDUCATION -->
     <section id="education" class="section">
-      <div class="section-head"><p class="eyebrow">EDUCATION & CERTIFICATIONS</p><h2>Learning and building.</h2></div>
-      <div class="edu-grid">
-        <article class="edu"><span class="tag">2022 — 2026</span><h3>B.Tech — Computer Science & Engineering (Data Science)</h3><p>Dr. A.P.J. Abdul Kalam Technical University · Lucknow, India</p></article>
-        <article class="edu"><span class="tag">Certification</span><h3>LLM For Young Developers</h3><p>Generative AI & Prompt Engineering</p></article>
-        <article class="edu"><span class="tag">Certification</span><h3>AI Skills Passport</h3><p>Microsoft & EY</p></article>
+
+      <div class="section-head">
+        <p class="eyebrow">EDUCATION & CERTIFICATIONS</p>
+        <h2>Learning and building.</h2>
       </div>
+
+      <div class="edu-grid">
+
+        <article class="edu">
+
+          <span class="tag">2022 — 2026</span>
+
+          <h3>
+            B.Tech — Computer Science & Engineering (Data Science)
+          </h3>
+
+          <p>
+            Dr. A.P.J. Abdul Kalam Technical University · Lucknow, India
+          </p>
+
+        </article>
+
+
+        <article class="edu">
+
+          <span class="tag">Certification</span>
+
+          <h3>LLM For Young Developers</h3>
+
+          <p>
+            Generative AI & Prompt Engineering
+          </p>
+
+        </article>
+
+
+        <article class="edu">
+
+          <span class="tag">Certification</span>
+
+          <h3>AI Skills Passport</h3>
+
+          <p>
+            Microsoft & EY
+          </p>
+
+        </article>
+
+      </div>
+
     </section>
 
+
+    <!-- CONTACT / LET'S CONNECT -->
     <section id="contact" class="section contact">
+
       <p class="eyebrow">LET'S CONNECT</p>
-      <h2>Have a data problem to solve?</h2>
-      <p>I'm open to opportunities in Data Engineering, Data Analytics and Data Science.</p>
-      <a class="btn primary" href="mailto:thakurrishabh89604@gmail.com">thakurrishabh89604@gmail.com</a>
+
+      <h2>Let's build something with data.</h2>
+
+      <p>
+        I'm open to opportunities in Data Engineering, Data Analytics and
+        Data Science. Feel free to reach out for professional opportunities,
+        collaborations or discussions.
+      </p>
+
+      <a class="btn primary"
+         href="mailto:rishabhsingh902633@gmail.com">
+        Email Me ↗
+      </a>
+
       <div class="links">
-        <a href="https://github.com/rishabh3404" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/rishabh-singh-data-science" target="_blank" rel="noreferrer">LinkedIn</a>
+
+        <a href="https://github.com/rishabh3404"
+           target="_blank"
+           rel="noreferrer">
+          GitHub ↗
+        </a>
+
+        <a href="https://www.linkedin.com/in/rishabh-singh-data-science"
+           target="_blank"
+           rel="noreferrer">
+          LinkedIn ↗
+        </a>
+
       </div>
+
     </section>
+
   </main>
 
-  <footer>© 2026 Rishabh Singh · Built with HTML, CSS & JavaScript.</footer>
+
+  <footer>
+    © 2026 Rishabh Singh · Built with HTML, CSS & JavaScript.
+  </footer>
+
   <script src="script.js"></script>
+
 </body>
 </html>
+```
